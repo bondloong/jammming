@@ -8,7 +8,7 @@ import Playlist from '../Playlist/Playlist'
 import { ITrack } from '../interfaces'
 
 
-export default function App({ }): ReactElement {
+export default function App(): ReactElement {
   const [searchResults, setsearchResults] = useState<ITrack[]>([]);
   const [playlistTracks, setplaylistTracks] = useState<ITrack[]>([]);
   const [playlistName, setplaylistName] = useState('My Playlist');
